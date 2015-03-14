@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+
+# Custom Temporary Files
+_printtree_*_proddir
+printtree.condor
+runprint.sh
+HiForestAnalysis
