@@ -19,7 +19,7 @@ fi
 
 filename=\`head -n\$((1+\$1)) \$2 | tail -n1\`
 ./printtree.exe \$filename
-
+rm printtree.exe \$2
 EOF
 
 chmod +x runprint.sh
